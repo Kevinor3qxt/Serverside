@@ -1,0 +1,12 @@
+local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/fluxlib.txt")()
+
+local win = Flux:Window("Moon V1", "Serverside", Color3.fromRGB(255, 110, 48), Enum.KeyCode.LeftControl)
+local tab = win:Tab("Scripts", "http://www.roblox.com/asset/?id=6023426915")
+tab:Button("Bad cop good cop", "You choose bad or good", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kevinor3qxt/DDREVINHUB/main/BADCOPGOODCOP"))()
+Flux:Notification("Becoming good cop/bad cop", "Alright")
+end)
+tab:Button("Pendulum Hub", "One Of the best severside hubs for trolling", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+end)
+win:Tab("Player", "http://www.roblox.com/asset/?id=6022668888")
