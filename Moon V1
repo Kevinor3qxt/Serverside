@@ -1,6 +1,6 @@
 local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/fluxlib.txt")()
 
-local win = Flux:Window("Moon V1", "Serverside", Color3.fromRGB(255, 110, 48), Enum.KeyCode.LeftControl)
+local win = Flux:Window("Moon V2", "Serverside", Color3.fromRGB(255, 110, 48), Enum.KeyCode.LeftControl)
 local tab = win:Tab("Scripts", "http://www.roblox.com/asset/?id=6023426915")
 tab:Button("Bad cop good cop", "You choose bad or good", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Kevinor3qxt/DDREVINHUB/main/BADCOPGOODCOP"))()
